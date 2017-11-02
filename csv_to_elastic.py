@@ -65,7 +65,7 @@ parser.add_argument(	'--max-rows',
 
 args = parser.parse_args()
 
-url  = "localhost:9200"
+url  = "search-isg-logcentral-bp24mazhhi7bju66rwcvsrbok4.us-east-1.es.amazonaws.com"
 path = "/" + args.elastic_path.strip("/")
 
 print("")
